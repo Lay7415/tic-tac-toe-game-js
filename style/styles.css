@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 166, 0);
+}
+
+.mainBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 3;
+  width: 800px;
+  height: 800px;
+  background-color: cornflowerblue;
+  padding-top: 60px;
+  border-radius: 40px;
+  /* box-shadow: 0px 0px 15px 0px; */
+  box-shadow: inset 0px 0px 30px 5px;
+
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+  border: 10px solid rgb(105, 78, 105);
+  border-radius: 30px;
+  font-size: 150px;
+  cursor: pointer;
+  font-family: fantasy;
+  box-shadow: inset 0px 0px 70px 10px;
+}
+
+.line {
+  position: absolute;
+  font-weight: 600;
+  border: 7px solid black;
+  color: black;
+  z-index: 2;
+}
+
+.winnerText {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  visibility: hidden;
+  width: 600px;
+  height: 250px;
+  margin: 250px auto 0 auto;
+  padding-top: 120px;
+  background-color: rgba(0, 0, 0, 0.733);
+  box-shadow: 0px 0px 110px 30px;
+  border-radius: 20px;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: cursive;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 3s;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 600;
+    color: rgb(173, 86, 255);
+    text-shadow: -3px 7px rgb(75, 0, 105);
+    margin: 0px 0px 20px 0px;
+    font-family: fantasy;
+    cursor: pointer;
+}
